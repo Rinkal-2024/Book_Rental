@@ -10,11 +10,11 @@ connectDB();
 
 const server = app.listen(PORT, () => {
   console.log(`
-🚀 Server is running!
-📍 Environment: ${NODE_ENV}
-🌐 Server: http://localhost:${PORT}
-📚 API Documentation: http://localhost:${PORT}/api-docs
-❤️  Health Check: http://localhost:${PORT}/health
+ Server is running!
+ Environment: ${NODE_ENV}
+ Server: http://localhost:${PORT}
+ API Documentation: http://localhost:${PORT}/api-docs
+ Health Check: http://localhost:${PORT}/health
   `);
 });
 
